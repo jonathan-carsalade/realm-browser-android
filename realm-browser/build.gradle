@@ -27,6 +27,7 @@ dependencies {
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:$SUPPORT_LIBRARY_VERSION"
     compile "com.koushikdutta.async:androidasync:2.2.1"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.9.0"
 
     // Android test dependencies
     androidTestCompile("com.android.support.test.espresso:espresso-core:2.2.2", {
